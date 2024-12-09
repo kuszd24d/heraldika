@@ -1,5 +1,6 @@
 body{
   padding: 5px 25px;
+ 
 }
 
 p{
@@ -12,8 +13,8 @@ ol li{
 }
 
 .hasab{
-  -webkit-column-count: 3; /* Chrome, Safari, Opera */
-  -moz-column-count: 3; /* Firefox */
+  -webkit-column-count: 3; 
+  -moz-column-count: 3; 
   column-count: 3;
   line-height: 120%;
 }
