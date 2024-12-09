@@ -1,11 +1,15 @@
 body{
   padding: 5px 25px;
+ background-image: url(hatter.png);
+ width: 800px;
+ margin: auto;
  
 }
 
 p{
   text-align: justify;
   text-indent: 2em;
+
 }
 
 ol li{
@@ -16,7 +20,7 @@ ol li{
   -webkit-column-count: 3; 
   -moz-column-count: 3; 
   column-count: 3;
-  line-height: 120%;
+  line-height: 200%;
 }
 
 h1, h2{
@@ -32,12 +36,14 @@ h1, h2{
 
 a{
   text-decoration: none;
+  color: #7F7F7F;
 }
 
 img{
   border: 1px solid #0F0F0F;
   box-shadow: 5px 5px 5px #7F7F7F;
   padding:15px;
+  margin: 15px;
 }
 
 #vonalkazas{
@@ -52,4 +58,5 @@ img{
 
 #teljes{
   float:right;
+  width: 280px;
 }
